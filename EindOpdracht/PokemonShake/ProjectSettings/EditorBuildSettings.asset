@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Extras/Titlescreen.unity
+    guid: f35069cf69a422749a18c97592d287cc
+  - enabled: 1
+    path: Assets/Scenes/Overworld/NewBarkTown_Pathfinding.unity
+    guid: ef5c9b40271bcde478c58c4117ac4fb4
+  - enabled: 1
+    path: Assets/Scenes/Buildings/PlayerHouse0F.unity
+    guid: e06b7cd966dc1d44b8fd676dec836d0e
+  - enabled: 1
+    path: Assets/Scenes/Buildings/PlayerHouse1F.unity
+    guid: ea223021e22f0f8418357cff846d920c
+  - enabled: 1
+    path: Assets/Scenes/WildBattle.unity
+    guid: f50152d08c4cb1e40945a6fd53f92624
+  - enabled: 1
+    path: Assets/Scenes/DirectGift.unity
+    guid: ffe98758a6b775a428f936af1dae2110
+  - enabled: 1
+    path: Assets/Scenes/Extras/Introduction.unity
+    guid: 7374f9cf78fb0a64ca098f43b69aa434

@@ -1,0 +1,89 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PokemonBattleManager : MonoBehaviour {
+
+	public Transform playerHealth;
+	public Transform enemyHealth;
+
+	private bool battleActive = false;
+
+	private PokemonBase activePlayerPokemon;
+	private PokemonBase activeEnemyPokemon;
+
+
+	//Use Events for setting this all up and then apply it were possible
+	void Start(){
+		//get pokemon teams
+		//set both pokemon
+		//SetPokemon(activePlayerPokemon, PokemonTeam.pokeTeam[0]);
+		//SetPokemon(activeEnemyPokemon, PokemonBase.RandomPokemon()); //Give dexnum based on route pokemon
+		/*DEBUG*/ SetPokemon(activeEnemyPokemon, PokemonBase.RandomPokemon(163));
+		//Update Sprites
+		//Play Animations
+		//Show some dialog
+		//Set battle to active
+		battleActive = true;
+	}
+
+	void Update(){
+		if (battleActive) {
+			//Debug.Log("Shaken: " + ShakeChecker.shakes);
+			if (ShakeChecker.shakes > 0) {
+				Debug.Log (RumbleActivator.vibrating);
+				if (RumbleActivator.vibrating) {
+					LowerHealth (playerHealth, false);
+				} else {
+					LowerHealth (enemyHealth);
+				}
+			} else if (RumbleActivator.vibrating && ShakeChecker.holding) {
+				LowerHealth (playerHealth, true);
+			}
+		}
+	}
+
+	public void SwitchPokemon(PokemonBase currentPoke){
+		//When in battle and change pokemon
+		//Call SetActivePokemon
+		UnsetPokemon(currentPoke);
+		//Get input
+	}
+
+	public void SetPokemon(PokemonBase targetPokemon, PokemonBase sourcePokemon){
+		//Get pokemon from team
+		//or give pokemon as parameter and then set it active
+		targetPokemon = sourcePokemon;
+	}
+
+	public void UnsetPokemon(PokemonBase current){
+		//Get pokemon from team
+		//or give pokemon as parameter and then set it active
+	}
+
+	public void Fainted(){
+		//change pokemon
+		//check whose pokemon it is
+	}
+
+	public bool LowerHealth(Transform healthBar, bool isDefending = false){ //If not isDefending given, randomize the outcome
+		//get pokemons total health
+		//calculate percentage of total
+		Debug.Log("here");
+		if (healthBar.localScale.x >= 0.001f) {
+			healthBar.localScale -= new Vector3(CalculateDamage()*0.01f, 0, 0); //Still need to implement defending!!
+		}
+
+		if (healthBar.localScale.x <= 0.001f){
+			Fainted (); //give correct PokemonBase
+			return true;
+		}
+
+		return false;
+
+	}
+
+	private int CalculateDamage(){
+		return 1;
+	}
+}

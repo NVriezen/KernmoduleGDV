@@ -1,0 +1,71 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ShakeManager : MonoBehaviour {
+
+	public float shakeThreshold;
+	public int frameSkip;
+
+	int shakes;
+
+	public Transform playerHealth;
+	public Transform enemyHealth;
+
+	private BattleManager batMan;
+
+	void Start(){
+		//Get team in player data and set playerHealth
+		//PokemonBase[] pokeT = PokemonTeam.pokeTeam;
+		//Get pokemon in wild encounter class (or something like that);
+
+		batMan = new BattleManager();
+	}
+
+	void Update(){
+		if (Input.acceleration.magnitude >= shakeThreshold && Time.frameCount % frameSkip == 0){
+			//shake happening
+			Debug.Log("Shaken: " + shakes++);
+			CheckRumble();
+		}
+		/*
+		if ((Time.frameCount % (Random.Range (1.5f, 3))) == 0) {
+			Vibration.defaultAmplitude = 255;
+			Vibration.CreateOneShot (500);
+		}
+		*/
+		StartCoroutine (WaitingForVibration());
+		//check vibrating, if not holding screen -> damage player 
+	}
+
+	//Check how many times youve shaken. Together with attack stat determines how many times you need to shake to do damage. This way a pokemon with a high stat, needs less shakes to damage enemy.
+	void CheckRumble(){
+		//if (Time.frameCount % (Random.Range (1.5f, 3) * 60) == 0) { //Enemy is attacking
+		if ((Time.frameCount % (Random.Range (1.5f, 3))) == 0) {
+			LowerHealth(playerHealth); //lower HP player
+			Handheld.Vibrate();
+		} else { //Enemy is not attacking
+			LowerHealth(enemyHealth); //lower HP enemy
+		}
+	}
+
+	void LowerHealth(Transform target, int damage = 1){
+		//get pokemons total health
+		//calculate percentage of total
+		Debug.Log("here");
+		if (target.localScale.x >= 0.001f) {
+			target.localScale -= new Vector3(damage*0.01f, 0, 0);
+		}
+
+		if (target.localScale.x <= 0.001f){
+			//batMan.Fainted();
+		}
+	}
+
+	IEnumerator WaitingForVibration(){
+		Handheld.Vibrate ();
+		Debug.Log ("Vibrating, now wait!");
+		yield return new WaitForSeconds (10);
+		WaitingForVibration ();
+	}
+}

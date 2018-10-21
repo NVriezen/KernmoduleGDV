@@ -1,0 +1,57 @@
+﻿{
+	"Pokemon": [
+	{
+		"No": 158,
+		"Johto No": 7,
+		"Name": "TOTODILE",
+		"Type1": "Water",
+		"Type2": null,
+		"Gender Chance": 0.5,
+		"Classification": "Big Jaw",
+		"Menu Type": "Human",
+		"Height": 0.6,
+		"Weight": 9.5,
+		"Base Stats": [
+		{ 
+				"Attack": 65
+		},
+		{
+				"Defense": 64
+		},
+		{
+				"HP": 50
+		},
+		{
+				"Speed": 43
+		}
+		]
+	},
+	{
+		"No": 161,
+		"Johto No": 19,
+		"Name": "SENTRET",
+		"Type1": "Normal",
+		"Type2": null,
+		"Gender Chance": 0.5,
+		"Classification": "Scout",
+		"Menu Type": "Animal",
+		"Height": 0.8,
+		"Weight": 6,
+		"Base Stats": [
+		{ 
+				"Attack": 46
+		},
+		{
+				"Defense": 34
+		},
+		{
+				"HP": 35
+		},
+		{
+				"Speed": 20
+		}
+		]
+		
+	}
+	]
+}

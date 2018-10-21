@@ -1,0 +1,6531 @@
+{
+	"Pokemon": [
+	{
+		"No": 1,
+		"RegionalNo": 1,
+		"Name": "POKEMON1",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 2,
+		"RegionalNo": 2,
+		"Name": "POKEMON2",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 3,
+		"RegionalNo": 3,
+		"Name": "POKEMON3",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 4,
+		"RegionalNo": 4,
+		"Name": "POKEMON4",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 5,
+		"RegionalNo": 5,
+		"Name": "POKEMON5",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 6,
+		"RegionalNo": 6,
+		"Name": "POKEMON6",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 7,
+		"RegionalNo": 7,
+		"Name": "POKEMON7",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 8,
+		"RegionalNo": 8,
+		"Name": "POKEMON8",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 9,
+		"RegionalNo": 9,
+		"Name": "POKEMON9",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 10,
+		"RegionalNo": 10,
+		"Name": "POKEMON10",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 11,
+		"RegionalNo": 11,
+		"Name": "POKEMON11",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 12,
+		"RegionalNo": 12,
+		"Name": "POKEMON12",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 13,
+		"RegionalNo": 13,
+		"Name": "POKEMON13",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 14,
+		"RegionalNo": 14,
+		"Name": "POKEMON14",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 15,
+		"RegionalNo": 15,
+		"Name": "POKEMON15",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 16,
+		"RegionalNo": 10,
+		"Name": "PIDGEY",
+		"Type1": "Normal",
+		"Type2": "Flying",
+		"GenderChance": 0.5,
+		"Classification": "Tiny Bird",
+		"MenuType": "Bird",
+		"Height": 0.3,
+		"Weight": 1.8,
+		"BaseStats": [
+		{ 
+				"Attack": 45
+		},
+		{
+				"Defense": 40
+		},
+		{
+				"HP": 40
+		},
+		{
+				"Speed": 56
+		}
+		]
+	},
+	{
+		"No": 17,
+		"RegionalNo": 17,
+		"Name": "POKEMON17",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 18,
+		"RegionalNo": 18,
+		"Name": "POKEMON18",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 19,
+		"RegionalNo": 17,
+		"Name": "RATTATA",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.5,
+		"Classification": "Mouse",
+		"MenuType": "Animal",
+		"Height": 0.3,
+		"Weight": 3.5,
+		"BaseStats": [
+		{ 
+				"Attack": 56
+		},
+		{
+				"Defense": 35
+		},
+		{
+				"HP": 30
+		},
+		{
+				"Speed": 72
+		}
+		]
+	},
+	{
+		"No": 20,
+		"RegionalNo": 20,
+		"Name": "POKEMON20",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 21,
+		"RegionalNo": 21,
+		"Name": "POKEMON21",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 22,
+		"RegionalNo": 22,
+		"Name": "POKEMON22",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 23,
+		"RegionalNo": 23,
+		"Name": "POKEMON23",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 24,
+		"RegionalNo": 24,
+		"Name": "POKEMON24",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 25,
+		"RegionalNo": 25,
+		"Name": "POKEMON25",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 26,
+		"RegionalNo": 26,
+		"Name": "POKEMON26",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 27,
+		"RegionalNo": 27,
+		"Name": "POKEMON27",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 28,
+		"RegionalNo": 28,
+		"Name": "POKEMON28",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 29,
+		"RegionalNo": 29,
+		"Name": "POKEMON29",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 30,
+		"RegionalNo": 30,
+		"Name": "POKEMON30",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 31,
+		"RegionalNo": 31,
+		"Name": "POKEMON31",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 32,
+		"RegionalNo": 32,
+		"Name": "POKEMON32",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 33,
+		"RegionalNo": 33,
+		"Name": "POKEMON33",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 34,
+		"RegionalNo": 34,
+		"Name": "POKEMON34",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 35,
+		"RegionalNo": 35,
+		"Name": "POKEMON35",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 36,
+		"RegionalNo": 36,
+		"Name": "POKEMON36",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 37,
+		"RegionalNo": 37,
+		"Name": "POKEMON37",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 38,
+		"RegionalNo": 38,
+		"Name": "POKEMON38",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 39,
+		"RegionalNo": 39,
+		"Name": "POKEMON39",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 40,
+		"RegionalNo": 40,
+		"Name": "POKEMON40",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 41,
+		"RegionalNo": 41,
+		"Name": "POKEMON41",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 42,
+		"RegionalNo": 42,
+		"Name": "POKEMON42",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 43,
+		"RegionalNo": 43,
+		"Name": "POKEMON43",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 44,
+		"RegionalNo": 44,
+		"Name": "POKEMON44",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 45,
+		"RegionalNo": 45,
+		"Name": "POKEMON45",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 46,
+		"RegionalNo": 46,
+		"Name": "POKEMON46",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 47,
+		"RegionalNo": 47,
+		"Name": "POKEMON47",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 48,
+		"RegionalNo": 48,
+		"Name": "POKEMON48",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 49,
+		"RegionalNo": 49,
+		"Name": "POKEMON49",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 50,
+		"RegionalNo": 50,
+		"Name": "POKEMON50",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 51,
+		"RegionalNo": 51,
+		"Name": "POKEMON51",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 52,
+		"RegionalNo": 52,
+		"Name": "POKEMON52",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 53,
+		"RegionalNo": 53,
+		"Name": "POKEMON53",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 54,
+		"RegionalNo": 54,
+		"Name": "POKEMON54",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 55,
+		"RegionalNo": 55,
+		"Name": "POKEMON55",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 56,
+		"RegionalNo": 56,
+		"Name": "POKEMON56",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 57,
+		"RegionalNo": 57,
+		"Name": "POKEMON57",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 58,
+		"RegionalNo": 58,
+		"Name": "POKEMON58",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 59,
+		"RegionalNo": 59,
+		"Name": "POKEMON59",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 60,
+		"RegionalNo": 60,
+		"Name": "POKEMON60",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 61,
+		"RegionalNo": 61,
+		"Name": "POKEMON61",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 62,
+		"RegionalNo": 62,
+		"Name": "POKEMON62",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 63,
+		"RegionalNo": 63,
+		"Name": "POKEMON63",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 64,
+		"RegionalNo": 64,
+		"Name": "POKEMON64",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 65,
+		"RegionalNo": 65,
+		"Name": "POKEMON65",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 66,
+		"RegionalNo": 66,
+		"Name": "POKEMON66",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 67,
+		"RegionalNo": 67,
+		"Name": "POKEMON67",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 68,
+		"RegionalNo": 68,
+		"Name": "POKEMON68",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 69,
+		"RegionalNo": 69,
+		"Name": "POKEMON69",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 70,
+		"RegionalNo": 70,
+		"Name": "POKEMON70",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 71,
+		"RegionalNo": 71,
+		"Name": "POKEMON71",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 72,
+		"RegionalNo": 72,
+		"Name": "POKEMON72",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 73,
+		"RegionalNo": 73,
+		"Name": "POKEMON73",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 74,
+		"RegionalNo": 74,
+		"Name": "POKEMON74",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 75,
+		"RegionalNo": 75,
+		"Name": "POKEMON75",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 76,
+		"RegionalNo": 76,
+		"Name": "POKEMON76",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 77,
+		"RegionalNo": 77,
+		"Name": "POKEMON77",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 78,
+		"RegionalNo": 78,
+		"Name": "POKEMON78",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 79,
+		"RegionalNo": 79,
+		"Name": "POKEMON79",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 80,
+		"RegionalNo": 80,
+		"Name": "POKEMON80",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 81,
+		"RegionalNo": 81,
+		"Name": "POKEMON81",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 82,
+		"RegionalNo": 82,
+		"Name": "POKEMON82",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 83,
+		"RegionalNo": 83,
+		"Name": "POKEMON83",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 84,
+		"RegionalNo": 84,
+		"Name": "POKEMON84",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 85,
+		"RegionalNo": 85,
+		"Name": "POKEMON85",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 86,
+		"RegionalNo": 86,
+		"Name": "POKEMON86",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 87,
+		"RegionalNo": 87,
+		"Name": "POKEMON87",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 88,
+		"RegionalNo": 88,
+		"Name": "POKEMON88",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 89,
+		"RegionalNo": 89,
+		"Name": "POKEMON89",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 90,
+		"RegionalNo": 90,
+		"Name": "POKEMON90",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 91,
+		"RegionalNo": 91,
+		"Name": "POKEMON91",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 92,
+		"RegionalNo": 92,
+		"Name": "POKEMON92",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 93,
+		"RegionalNo": 93,
+		"Name": "POKEMON93",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 94,
+		"RegionalNo": 94,
+		"Name": "POKEMON94",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 95,
+		"RegionalNo": 95,
+		"Name": "POKEMON95",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 96,
+		"RegionalNo": 96,
+		"Name": "POKEMON96",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 97,
+		"RegionalNo": 97,
+		"Name": "POKEMON97",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 98,
+		"RegionalNo": 98,
+		"Name": "POKEMON98",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 99,
+		"RegionalNo": 99,
+		"Name": "POKEMON99",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 100,
+		"RegionalNo": 100,
+		"Name": "POKEMON100",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 101,
+		"RegionalNo": 101,
+		"Name": "POKEMON101",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 102,
+		"RegionalNo": 102,
+		"Name": "POKEMON102",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 103,
+		"RegionalNo": 103,
+		"Name": "POKEMON103",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 104,
+		"RegionalNo": 104,
+		"Name": "POKEMON104",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 105,
+		"RegionalNo": 105,
+		"Name": "POKEMON105",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 106,
+		"RegionalNo": 106,
+		"Name": "POKEMON106",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 107,
+		"RegionalNo": 107,
+		"Name": "POKEMON107",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 108,
+		"RegionalNo": 108,
+		"Name": "POKEMON108",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 109,
+		"RegionalNo": 109,
+		"Name": "POKEMON109",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 110,
+		"RegionalNo": 110,
+		"Name": "POKEMON110",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 111,
+		"RegionalNo": 111,
+		"Name": "POKEMON111",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 112,
+		"RegionalNo": 112,
+		"Name": "POKEMON112",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 113,
+		"RegionalNo": 113,
+		"Name": "POKEMON113",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 114,
+		"RegionalNo": 114,
+		"Name": "POKEMON114",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 115,
+		"RegionalNo": 115,
+		"Name": "POKEMON115",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 116,
+		"RegionalNo": 116,
+		"Name": "POKEMON116",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 117,
+		"RegionalNo": 117,
+		"Name": "POKEMON117",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 118,
+		"RegionalNo": 118,
+		"Name": "POKEMON118",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 119,
+		"RegionalNo": 119,
+		"Name": "POKEMON119",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 120,
+		"RegionalNo": 120,
+		"Name": "POKEMON120",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 121,
+		"RegionalNo": 121,
+		"Name": "POKEMON121",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 122,
+		"RegionalNo": 122,
+		"Name": "POKEMON122",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 123,
+		"RegionalNo": 123,
+		"Name": "POKEMON123",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 124,
+		"RegionalNo": 124,
+		"Name": "POKEMON124",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 125,
+		"RegionalNo": 125,
+		"Name": "POKEMON125",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 126,
+		"RegionalNo": 126,
+		"Name": "POKEMON126",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 127,
+		"RegionalNo": 127,
+		"Name": "POKEMON127",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 128,
+		"RegionalNo": 128,
+		"Name": "POKEMON128",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 129,
+		"RegionalNo": 129,
+		"Name": "POKEMON129",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 130,
+		"RegionalNo": 130,
+		"Name": "POKEMON130",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 131,
+		"RegionalNo": 131,
+		"Name": "POKEMON131",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 132,
+		"RegionalNo": 132,
+		"Name": "POKEMON132",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 133,
+		"RegionalNo": 133,
+		"Name": "POKEMON133",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 134,
+		"RegionalNo": 134,
+		"Name": "POKEMON134",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 135,
+		"RegionalNo": 135,
+		"Name": "POKEMON135",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 136,
+		"RegionalNo": 136,
+		"Name": "POKEMON136",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 137,
+		"RegionalNo": 137,
+		"Name": "POKEMON137",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 138,
+		"RegionalNo": 138,
+		"Name": "POKEMON138",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 139,
+		"RegionalNo": 139,
+		"Name": "POKEMON139",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 140,
+		"RegionalNo": 140,
+		"Name": "POKEMON140",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 141,
+		"RegionalNo": 141,
+		"Name": "POKEMON141",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 142,
+		"RegionalNo": 142,
+		"Name": "POKEMON142",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 143,
+		"RegionalNo": 143,
+		"Name": "POKEMON143",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 144,
+		"RegionalNo": 144,
+		"Name": "POKEMON144",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 145,
+		"RegionalNo": 145,
+		"Name": "POKEMON145",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 146,
+		"RegionalNo": 146,
+		"Name": "POKEMON146",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 147,
+		"RegionalNo": 147,
+		"Name": "POKEMON147",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 148,
+		"RegionalNo": 148,
+		"Name": "POKEMON148",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 149,
+		"RegionalNo": 149,
+		"Name": "POKEMON149",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 150,
+		"RegionalNo": 150,
+		"Name": "POKEMON150",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 151,
+		"RegionalNo": 151,
+		"Name": "POKEMON151",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 152,
+		"RegionalNo": 1,
+		"Name": "POKEMON152",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 153,
+		"RegionalNo": 2,
+		"Name": "POKEMON153",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 154,
+		"RegionalNo": 3,
+		"Name": "POKEMON154",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 155,
+		"RegionalNo": 4,
+		"Name": "POKEMON155",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 156,
+		"RegionalNo": 5,
+		"Name": "POKEMON156",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 157,
+		"RegionalNo": 6,
+		"Name": "POKEMON157",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 158,
+		"JohtoNo": 7,
+		"Name": "TOTODILE",
+		"Type1": "Water",
+		"Type2": null,
+		"GenderChance": 0.5,
+		"Classification": "Big Jaw",
+		"MenuType": "Human",
+		"Height": 0.6,
+		"Weight": 9.5,
+		"BaseStats": [
+		{ 
+				"Attack": 65
+		},
+		{
+				"Defense": 64
+		},
+		{
+				"HP": 50
+		},
+		{
+				"Speed": 43
+		}
+		]
+	},
+	{
+		"No": 159,
+		"RegionalNo": 8,
+		"Name": "POKEMON159",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 160,
+		"RegionalNo": 9,
+		"Name": "POKEMON160",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 161,
+		"JohtoNo": 19,
+		"Name": "SENTRET",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.5,
+		"Classification": "Scout",
+		"MenuType": "Animal",
+		"Height": 0.8,
+		"Weight": 6,
+		"BaseStats": [
+		{ 
+				"Attack": 46
+		},
+		{
+				"Defense": 34
+		},
+		{
+				"HP": 35
+		},
+		{
+				"Speed": 20
+		}
+		]
+		
+	},
+	{
+		"No": 162,
+		"RegionalNo": 11,
+		"Name": "POKEMON162",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 163,
+		"RegionalNo": 15,
+		"Name": "HOOTHOOT",
+		"Type1": "Normal",
+		"Type2": "Flying",
+		"GenderChance": 0.5,
+		"Classification": "Owl",
+		"MenuType": "Bird",
+		"Height": 0.7,
+		"Weight": 21.2,
+		"BaseStats": [
+		{ 
+				"Attack": 30
+		},
+		{
+				"Defense": 30
+		},
+		{
+				"HP": 60
+		},
+		{
+				"Speed": 50
+		}
+		]
+	},
+	{
+		"No": 164,
+		"RegionalNo": 13,
+		"Name": "POKEMON164",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 165,
+		"RegionalNo": 14,
+		"Name": "POKEMON165",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 166,
+		"RegionalNo": 15,
+		"Name": "POKEMON166",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 167,
+		"RegionalNo": 16,
+		"Name": "POKEMON167",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 168,
+		"RegionalNo": 17,
+		"Name": "POKEMON168",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 169,
+		"RegionalNo": 18,
+		"Name": "POKEMON169",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 170,
+		"RegionalNo": 19,
+		"Name": "POKEMON170",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 171,
+		"RegionalNo": 20,
+		"Name": "POKEMON171",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 172,
+		"RegionalNo": 21,
+		"Name": "POKEMON172",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 173,
+		"RegionalNo": 22,
+		"Name": "POKEMON173",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 174,
+		"RegionalNo": 23,
+		"Name": "POKEMON174",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 175,
+		"RegionalNo": 24,
+		"Name": "POKEMON175",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 176,
+		"RegionalNo": 25,
+		"Name": "POKEMON176",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 177,
+		"RegionalNo": 26,
+		"Name": "POKEMON177",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 178,
+		"RegionalNo": 27,
+		"Name": "POKEMON178",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 179,
+		"RegionalNo": 28,
+		"Name": "POKEMON179",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 180,
+		"RegionalNo": 29,
+		"Name": "POKEMON180",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 181,
+		"RegionalNo": 30,
+		"Name": "POKEMON181",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 182,
+		"RegionalNo": 31,
+		"Name": "POKEMON182",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 183,
+		"RegionalNo": 32,
+		"Name": "POKEMON183",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 184,
+		"RegionalNo": 33,
+		"Name": "POKEMON184",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 185,
+		"RegionalNo": 34,
+		"Name": "POKEMON185",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 186,
+		"RegionalNo": 35,
+		"Name": "POKEMON186",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 187,
+		"RegionalNo": 36,
+		"Name": "POKEMON187",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 188,
+		"RegionalNo": 37,
+		"Name": "POKEMON188",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 189,
+		"RegionalNo": 38,
+		"Name": "POKEMON189",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 190,
+		"RegionalNo": 39,
+		"Name": "POKEMON190",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 191,
+		"RegionalNo": 40,
+		"Name": "POKEMON191",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 192,
+		"RegionalNo": 41,
+		"Name": "POKEMON192",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 193,
+		"RegionalNo": 42,
+		"Name": "POKEMON193",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 194,
+		"RegionalNo": 43,
+		"Name": "POKEMON194",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 195,
+		"RegionalNo": 44,
+		"Name": "POKEMON195",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 196,
+		"RegionalNo": 45,
+		"Name": "POKEMON196",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 197,
+		"RegionalNo": 46,
+		"Name": "POKEMON197",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 198,
+		"RegionalNo": 47,
+		"Name": "POKEMON198",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 199,
+		"RegionalNo": 48,
+		"Name": "POKEMON199",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 200,
+		"RegionalNo": 49,
+		"Name": "POKEMON200",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 201,
+		"RegionalNo": 50,
+		"Name": "POKEMON201",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 202,
+		"RegionalNo": 51,
+		"Name": "POKEMON202",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 203,
+		"RegionalNo": 52,
+		"Name": "POKEMON203",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 204,
+		"RegionalNo": 53,
+		"Name": "POKEMON204",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 205,
+		"RegionalNo": 54,
+		"Name": "POKEMON205",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 206,
+		"RegionalNo": 55,
+		"Name": "POKEMON206",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 207,
+		"RegionalNo": 56,
+		"Name": "POKEMON207",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 208,
+		"RegionalNo": 57,
+		"Name": "POKEMON208",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 209,
+		"RegionalNo": 58,
+		"Name": "POKEMON209",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 210,
+		"RegionalNo": 59,
+		"Name": "POKEMON210",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 211,
+		"RegionalNo": 60,
+		"Name": "POKEMON211",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 212,
+		"RegionalNo": 61,
+		"Name": "POKEMON212",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 213,
+		"RegionalNo": 62,
+		"Name": "POKEMON213",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 214,
+		"RegionalNo": 63,
+		"Name": "POKEMON214",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 215,
+		"RegionalNo": 64,
+		"Name": "POKEMON215",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 216,
+		"RegionalNo": 65,
+		"Name": "POKEMON216",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 217,
+		"RegionalNo": 66,
+		"Name": "POKEMON217",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 218,
+		"RegionalNo": 67,
+		"Name": "POKEMON218",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 219,
+		"RegionalNo": 68,
+		"Name": "POKEMON219",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 220,
+		"RegionalNo": 69,
+		"Name": "POKEMON220",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 221,
+		"RegionalNo": 70,
+		"Name": "POKEMON221",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 222,
+		"RegionalNo": 71,
+		"Name": "POKEMON222",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 223,
+		"RegionalNo": 72,
+		"Name": "POKEMON223",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 224,
+		"RegionalNo": 73,
+		"Name": "POKEMON224",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 225,
+		"RegionalNo": 74,
+		"Name": "POKEMON225",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 226,
+		"RegionalNo": 75,
+		"Name": "POKEMON226",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 227,
+		"RegionalNo": 76,
+		"Name": "POKEMON227",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 228,
+		"RegionalNo": 77,
+		"Name": "POKEMON228",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 229,
+		"RegionalNo": 78,
+		"Name": "POKEMON229",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 230,
+		"RegionalNo": 79,
+		"Name": "POKEMON230",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 231,
+		"RegionalNo": 80,
+		"Name": "POKEMON231",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 232,
+		"RegionalNo": 81,
+		"Name": "POKEMON232",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 233,
+		"RegionalNo": 82,
+		"Name": "POKEMON233",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 234,
+		"RegionalNo": 83,
+		"Name": "POKEMON234",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 235,
+		"RegionalNo": 84,
+		"Name": "POKEMON235",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 236,
+		"RegionalNo": 85,
+		"Name": "POKEMON236",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 237,
+		"RegionalNo": 86,
+		"Name": "POKEMON237",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 238,
+		"RegionalNo": 87,
+		"Name": "POKEMON238",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 239,
+		"RegionalNo": 88,
+		"Name": "POKEMON239",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 240,
+		"RegionalNo": 89,
+		"Name": "POKEMON240",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 241,
+		"RegionalNo": 90,
+		"Name": "POKEMON241",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 242,
+		"RegionalNo": 91,
+		"Name": "POKEMON242",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 243,
+		"RegionalNo": 92,
+		"Name": "POKEMON243",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 244,
+		"RegionalNo": 93,
+		"Name": "POKEMON244",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 245,
+		"RegionalNo": 94,
+		"Name": "POKEMON245",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 246,
+		"RegionalNo": 95,
+		"Name": "POKEMON246",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 247,
+		"RegionalNo": 96,
+		"Name": "POKEMON247",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 248,
+		"RegionalNo": 97,
+		"Name": "POKEMON248",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 249,
+		"RegionalNo": 98,
+		"Name": "POKEMON249",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 250,
+		"RegionalNo": 99,
+		"Name": "POKEMON250",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	},
+	{
+		"No": 251,
+		"RegionalNo": 100,
+		"Name": "POKEMON251",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.0,
+		"Classification": "null",
+		"MenuType": "Human",
+		"Height": 0.0,
+		"Weight": 0.0,
+		"BaseStats": [
+		{ 
+				"Attack": 0
+		},
+		{
+				"Defense": 0
+		},
+		{
+				"HP": 0
+		},
+		{
+				"Speed": 0
+		}
+		]
+	}
+	]
+}

@@ -1,0 +1,20 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TrainerDataGetter : MonoBehaviour {
+
+	private TrainerTeam team;
+
+	//Get PlayerData
+	void OnEnable () {
+		//previousParent = GameObject.FindObjectOfType<TrainerTeam> ().transform.parent;
+		//GameObject.FindObjectOfType<TrainerTeam> ().transform.SetParent (this.gameObject.transform);
+		team = GameObject.FindObjectOfType<TrainerTeam> ();
+	}
+
+	//Remove PlayerData from object
+	void OnDisable () {
+		//gameObject.GetComponentInChildren<TrainerTeam> () = team;
+	}
+}

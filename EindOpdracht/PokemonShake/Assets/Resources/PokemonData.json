@@ -1,0 +1,135 @@
+﻿{
+	"Pokemon": [
+	{
+		"No": 16,
+		"RegionalNo": 10,
+		"Name": "PIDGEY",
+		"Type1": "Normal",
+		"Type2": "Flying",
+		"GenderChance": 0.5,
+		"Classification": "Tiny Bird",
+		"MenuType": "Bird",
+		"Height": 0.3,
+		"Weight": 1.8,
+		"BaseStats": [
+		{ 
+				"Attack": 45
+		},
+		{
+				"Defense": 40
+		},
+		{
+				"HP": 40
+		},
+		{
+				"Speed": 56
+		}
+		]
+	},
+	{
+		"No": 19,
+		"RegionalNo": 17,
+		"Name": "RATTATA",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.5,
+		"Classification": "Mouse",
+		"MenuType": "Animal",
+		"Height": 0.3,
+		"Weight": 3.5,
+		"BaseStats": [
+		{ 
+				"Attack": 56
+		},
+		{
+				"Defense": 35
+		},
+		{
+				"HP": 30
+		},
+		{
+				"Speed": 72
+		}
+		]
+	},
+	{
+		"No": 158,
+		"JohtoNo": 7,
+		"Name": "TOTODILE",
+		"Type1": "Water",
+		"Type2": null,
+		"GenderChance": 0.5,
+		"Classification": "Big Jaw",
+		"MenuType": "Human",
+		"Height": 0.6,
+		"Weight": 9.5,
+		"BaseStats": [
+		{ 
+				"Attack": 65
+		},
+		{
+				"Defense": 64
+		},
+		{
+				"HP": 50
+		},
+		{
+				"Speed": 43
+		}
+		]
+	},
+	{
+		"No": 161,
+		"JohtoNo": 19,
+		"Name": "SENTRET",
+		"Type1": "Normal",
+		"Type2": null,
+		"GenderChance": 0.5,
+		"Classification": "Scout",
+		"MenuType": "Animal",
+		"Height": 0.8,
+		"Weight": 6,
+		"BaseStats": [
+		{ 
+				"Attack": 46
+		},
+		{
+				"Defense": 34
+		},
+		{
+				"HP": 35
+		},
+		{
+				"Speed": 20
+		}
+		]
+		
+	},
+		{
+		"No": 163,
+		"RegionalNo": 15,
+		"Name": "HOOTHOOT",
+		"Type1": "Normal",
+		"Type2": "Flying",
+		"GenderChance": 0.5,
+		"Classification": "Owl",
+		"MenuType": "Bird",
+		"Height": 0.7,
+		"Weight": 21.2,
+		"BaseStats": [
+		{ 
+				"Attack": 30
+		},
+		{
+				"Defense": 30
+		},
+		{
+				"HP": 60
+		},
+		{
+				"Speed": 50
+		}
+		]
+	}
+	]
+}

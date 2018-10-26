@@ -51,9 +51,9 @@ public class PokemonTrainerContainer : PokemonBattleContainer {
 
 
 	public override int CalculateShakeRate () {
-		if ( ( int ) ( activePokemon.Attack * 0.1f ) >= 0 ) {
-
-		}
+		//if ( ( int ) ( activePokemon.Attack * 0.1f ) >= 0 ) {
+			
+		//}
 		return 1;
 	}
 

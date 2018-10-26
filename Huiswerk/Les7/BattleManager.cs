@@ -37,10 +37,6 @@ public class BattleManager : MonoBehaviour {
 		} else if ( RumbleActivator.vibrating && !ShakeChecker.holding && ( Time.frameCount % 3 ) == 0 ) {
 			activePlayerPokemon.DecreaseHealth ( false );
 		}
-
-		if ( activeEnemyPokemon ) {
-
-		}
 	}
 
 	/*

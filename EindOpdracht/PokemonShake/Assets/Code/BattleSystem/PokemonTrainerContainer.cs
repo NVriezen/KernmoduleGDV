@@ -18,7 +18,7 @@ public class PokemonTrainerContainer : PokemonBattleContainer {
 		}
 		activeSprite = gameObject.transform.GetChild ( 0 ).GetChild ( 0 ).GetComponent<SpriteRenderer> ();
 		activePokemon = TrainerTeam.pokeTeam [ 0 ];
-		if ( activePokemon.Attack == 0 ) {
+		if ( activePokemon.Type1 == null ) {
 			activeSprite.sprite = Resources.Load<Sprite> ( "Sprites/Back/Normal/NoEntry" );
 		} else {
 			activeSprite.sprite = Resources.Load<Sprite> ( "Sprites/Back/Normal/" + activePokemon.DexNum );
@@ -51,9 +51,9 @@ public class PokemonTrainerContainer : PokemonBattleContainer {
 
 
 	public override int CalculateShakeRate () {
-		if ( ( int ) ( activePokemon.Attack * 0.1f ) >= 0 ) {
-
-		}
+		//if ( ( int ) ( activePokemon.Attack * 0.1f ) >= 0 ) {
+			
+		//}
 		return 1;
 	}
 

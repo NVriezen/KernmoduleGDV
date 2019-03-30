@@ -8,6 +8,7 @@ public class GridNode : IComparer<GridNode>
     public int GScore = 0;
     public int HScore = 0;
     public int FScore = 0;
+    public bool unwalkable = false;
 
     public Vector2Int gridPosition;
 
@@ -19,6 +20,7 @@ public class GridNode : IComparer<GridNode>
 
 public class AStar : MonoBehaviour
 {
+    [SerializeField] private LayerMask unwalkableLayerMask;
     public int rows;
     public int columns;
     public float cellSize;
@@ -41,6 +43,11 @@ public class AStar : MonoBehaviour
                 grid[x, y].parent = grid[x, y];
             }
         }
+    }
+
+    private void Start()
+    {
+        CheckFieldForWalkable();
     }
 
     public List<Vector3> FindPath(Transform startPosition, Transform targetPosition)
@@ -96,6 +103,11 @@ public class AStar : MonoBehaviour
                     GridNode neighbour = grid[posX, posY];
 
                     if (closedList.Contains(neighbour))
+                    {
+                        continue;
+                    }
+
+                    if (neighbour.unwalkable)
                     {
                         continue;
                     }
@@ -177,6 +189,18 @@ public class AStar : MonoBehaviour
         return new Vector2(x, y); 
     }
 
+    public void CheckFieldForWalkable()
+    {
+        foreach (GridNode node in grid)
+        {
+            //node.gridPosition
+            if (Physics.CheckBox(new Vector3(GetWorldPosFromGridPos(node).x, transform.position.y, GetWorldPosFromGridPos(node).y), new Vector3(cellSize*0.5f, cellSize*0.5f, cellSize*0.5f), transform.rotation, unwalkableLayerMask))
+            {
+                node.unwalkable = true;
+            }
+        }
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.matrix = transform.localToWorldMatrix;
@@ -188,6 +212,19 @@ public class AStar : MonoBehaviour
         int maxWorldX = Mathf.FloorToInt(rows * 0.5f);
         int minWorldY = Mathf.FloorToInt(columns * -0.5f);
         int maxWorldY = Mathf.FloorToInt(columns * 0.5f);
+
+        if (grid != null)
+        {
+            foreach (GridNode node in grid)
+            {
+                Gizmos.color = new Color(0, 1, 0, 0.5f);
+                if (node.unwalkable)
+                {
+                    Gizmos.color = new Color(1, 0, 0, 0.5f);
+                }
+                Gizmos.DrawCube(new Vector3(GetWorldPosFromGridPos(node).x, transform.position.y, GetWorldPosFromGridPos(node).y), new Vector3(cellSize, cellSize, cellSize));
+            }
+        }
 
         for (int x = minWorldX; x < maxWorldX + 1; x++)
         {

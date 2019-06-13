@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class LobbyManager : MonoBehaviour
@@ -8,7 +9,9 @@ public class LobbyManager : MonoBehaviour
     [SerializeField] private GameObject loginManagerContainer;
     [SerializeField] private GameObject lobbyCanvas;
     [SerializeField] private Text informationText;
-    //private string username;
+
+    private const string postURL = PHPSender.baseURL + "GameCallers/SetGame.php";
+
     private Client localPlayer;
 
     private void Awake()
@@ -21,21 +24,35 @@ public class LobbyManager : MonoBehaviour
 
     public void Init(PlayerInfo playerInfo)
     {
-        loginManagerContainer.SetActive(false);
-        lobbyCanvas.SetActive(true);
+        SetLobbyActive(playerInfo);
 
         informationText.text = "Connecting to game...";
 
         GameObject client = new GameObject("Client");
         localPlayer = client.AddComponent<Client>();
         localPlayer.AssignInfo(playerInfo);
-        //localPlayer.sessionID = sessionID;
+        PHPSender.SetSession(playerInfo.sessionID);
+        if (localPlayer.connected)
+        {
+            informationText.text = "Connected to server!";
+        }
     }
 
-    private void Start()
+    public void SetLobbyActive(PlayerInfo playerInfo)
+    {
+        loginManagerContainer.SetActive(false);
+        lobbyCanvas.SetActive(true);
+    }
+
+    public void SearchOpponent()
     {
         informationText.text = "Searching for opponent...";
         StartCoroutine(SearchForOpponent());
+    }
+
+    public void Start()
+    {
+        StartCoroutine(SetGame());
     }
 
     private void OnDisable()
@@ -61,5 +78,41 @@ public class LobbyManager : MonoBehaviour
         {
             yield return null;
         }
+    }
+
+    private IEnumerator SetGame()
+    {
+        WWWForm gameForm = new WWWForm();
+
+        gameForm.AddField("sessionID", localPlayer.playerInfo.sessionID);
+        gameForm.AddField("gamename", Application.productName);
+
+        // Post the URL to the site and create a download object to get the result.
+        UnityWebRequest post = UnityWebRequest.Post(postURL, gameForm);
+        Debug.Log(post.url);
+        yield return post.SendWebRequest(); // Wait until the download is done
+
+
+        Debug.Log(post.downloadHandler.text);
+        if (post.isNetworkError || post.isHttpError || post.downloadHandler.text.Contains("Error"))
+        {
+            Debug.Log("There was an error: " + post.error);
+            Debug.Log(post.downloadHandler.text);
+            yield break;
+        }
+        else
+        {
+            if (post.downloadHandler.text == 0.ToString())
+            {
+                Debug.LogError("Error setting game - " + post.downloadHandler.text);
+                yield return null;
+            }
+            Debug.Log("Game set succesfully!");
+        }
+    }
+
+    public void LoadScene(string name)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(name);
     }
 }

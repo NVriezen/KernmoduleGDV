@@ -46,6 +46,11 @@ public class Server : MonoBehaviour
         m_Connections = new NativeList<NetworkConnection>(connectionCapacity, Allocator.Persistent);
     }
 
+    private void OnApplicationQuit()
+    {
+        OnDestroy();
+    }
+
     void OnDestroy()
     {
         m_Driver.Dispose();
@@ -71,6 +76,10 @@ public class Server : MonoBehaviour
         while ((c = m_Driver.Accept()) != default(NetworkConnection))
         {
             m_Connections.Add(c);
+            using (DataStreamWriter writer = MessageCenter.WriteEvent(ConnectionEvent.PING))
+            {
+                c.Send(m_Driver, writer);
+            }
             Debug.Log("Accepted a connection");
         }
 
@@ -147,7 +156,7 @@ public class Server : MonoBehaviour
         {
             foreach (uint player in playersInMatch)
             {
-                PlayersManager.StandbyPlayers[player].Send(m_Driver, writer);
+                PlayersManager.connectedPlayers[player].Send(m_Driver, writer);
                 Debug.Log("Send message to player " + player);
             }
         }

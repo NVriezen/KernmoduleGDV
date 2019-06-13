@@ -21,13 +21,22 @@ public class LoginManager : MonoBehaviour
     private string username;
     private string password;
 
-    private const string postURL = "https://studenthome.hku.nl/~niels.vriezen/database/LoginGame.php";
+    private const string postURL = PHPSender.baseURL + "GameCallers/LoginGame.php";
 
     private void Awake()
     {
         usernameField.onValueChanged.AddListener((value) => OnUsernameEdit(value));
         passwordField.onValueChanged.AddListener((value) => OnPasswordEdit(value));
         lobbyManager.enabled = false;
+    }
+
+    private void Start()
+    {
+        Client client = FindObjectOfType<Client>();
+        if (client != null)
+        {
+            EnableLobby(client.playerInfo);
+        }
     }
 
     public void OnLogin()
@@ -70,12 +79,18 @@ public class LoginManager : MonoBehaviour
         }
         else
         {
+            Debug.Log(post.downloadHandler.text);
             PlayerInfo info = JsonUtility.FromJson<PlayerInfo>(post.downloadHandler.text);
             Debug.Log("New SID is: " + info.sessionID);
             Debug.Log("ID: " + info.userID);
             Debug.Log("username: " + info.username);
-            lobbyManager.enabled = true;
-            lobbyManager.Init(info);
+            EnableLobby(info);
         }
+    }
+
+    private void EnableLobby(PlayerInfo info)
+    {
+        lobbyManager.enabled = true;
+        lobbyManager.Init(info);
     }
 }

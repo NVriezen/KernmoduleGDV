@@ -5,6 +5,7 @@ using Unity.Networking.Transport;
 using Unity.Collections;
 
 using UdpCNetworkDriver = Unity.Networking.Transport.BasicNetworkDriver<Unity.Networking.Transport.IPv4UDPSocket>;
+using System.Collections;
 
 public class Client : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class Client : MonoBehaviour
     //private string username;
     //private string sessionID;
 
-    private PlayerInfo playerInfo;
+    public PlayerInfo playerInfo;
 
     private void Awake()
     {
@@ -42,6 +43,11 @@ public class Client : MonoBehaviour
     public void AssignInfo(PlayerInfo playerInfo)
     {
         this.playerInfo = playerInfo;
+    }
+
+    public void OnApplicationQuit()
+    {
+        OnDestroy();
     }
 
     public void OnDestroy()
@@ -134,8 +140,30 @@ public class Client : MonoBehaviour
         return true;
     }
 
-    public void SpawnPlayerObject(PlayerRespawnStruct spawnData)
+    public IEnumerator CheckForSceneLoaded()
     {
-        GameObject.CreatePrimitive(PrimitiveType.Cylinder).transform.position = new Vector3(spawnData.positionX, spawnData.positionY, spawnData.positionZ);
+        do
+        {
+            Debug.Log("Checking for scene loading done");
+            yield return null;
+        } while (GameObject.FindObjectOfType<ClientMatchManager>() == null);
+
+        using (DataStreamWriter writer = MessageCenter.WriteEvent(ConnectionEvent.DONE_LOADING_LEVEL))
+        {
+            m_Connection.Send(m_Driver, writer);
+        }
+    }
+
+    public IEnumerator StartGame(StartGameStruct startGameStruct)
+    {
+        AsyncOperation loadingScene = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("OpenField");
+        while (!loadingScene.isDone)
+        {
+            yield return null;
+        }
+
+        ClientMatchManager.instance.Init(startGameStruct);
+
+        yield return null;
     }
 }

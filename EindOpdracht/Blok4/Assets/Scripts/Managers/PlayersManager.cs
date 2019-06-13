@@ -6,20 +6,21 @@ using Unity.Networking.Transport;
 public static class PlayersManager
 {
     //public static Dictionary<int, int> playersList = new Dictionary<int, int>(); // connection id, playerid
-    public static Queue<KeyValuePair<uint, NetworkConnection>> ActivelySearchingPlayers = new Queue<KeyValuePair<uint, NetworkConnection>>(); //playerID, connectionID
-    public static Dictionary<uint, NetworkConnection> StandbyPlayers = new Dictionary<uint, NetworkConnection>(); //playerID, connectionID
+    public static Queue<uint> activelySearchingPlayers = new Queue<uint>(); //playerID, connectionID
+    public static Dictionary<uint, NetworkConnection> connectedPlayers = new Dictionary<uint, NetworkConnection>(); //playerID, connectionID
 
     public static Dictionary<uint, List<uint>> activeMatches = new Dictionary<uint, List<uint>>(); //matchID, List of players
     private static float waitTime = 15;
     private static uint currentMatchID = 0;
 
-    public static IEnumerator CreateMatch(KeyValuePair<uint, NetworkConnection> requestingPlayer, Server server, NetworkConnection connection)
+    public static IEnumerator CreateMatch(uint requestingPlayerID, Server server)
     {
         bool opponentFound = false;
+        KeyValuePair<uint, NetworkConnection> requestingPlayer = new KeyValuePair<uint, NetworkConnection>(requestingPlayerID, connectedPlayers[requestingPlayerID]);
         KeyValuePair<uint, NetworkConnection> opponentInfo = new KeyValuePair<uint, NetworkConnection>();
         float startTime = Time.time;
         float waitedTime = Time.time - startTime;
-        while ((ActivelySearchingPlayers.Count <= 1 && waitedTime < waitTime))
+        while ((activelySearchingPlayers.Count <= 1 && waitedTime < waitTime))
         {
             waitedTime = Time.time - startTime;
             yield return null;
@@ -29,14 +30,15 @@ public static class PlayersManager
         {
             do
             {
-                opponentInfo = ActivelySearchingPlayers.Dequeue();
+                uint opponentID = activelySearchingPlayers.Dequeue();
+                opponentInfo = new KeyValuePair<uint, NetworkConnection>(opponentID, connectedPlayers[opponentID]);
                 yield return null;
-            } while (opponentInfo.Key == requestingPlayer.Key && StandbyPlayers.ContainsKey(opponentInfo.Key));
+            } while (opponentInfo.Key == requestingPlayer.Key && connectedPlayers.ContainsKey(opponentInfo.Key));
 
             Debug.Log("requesting: " + requestingPlayer.Key + " - " + requestingPlayer.Value);
             Debug.Log("opponent: " + opponentInfo.Key + " - " + opponentInfo.Value);
-            StandbyPlayers.Add(requestingPlayer.Key, requestingPlayer.Value);
-            StandbyPlayers.Add(opponentInfo.Key, opponentInfo.Value);
+            //connectedPlayers.Add(requestingPlayer.Key, requestingPlayer.Value);
+            //StandbyPlayers.Add(opponentInfo.Key, opponentInfo.Value);
 
             opponentFound = true;
         }
@@ -61,13 +63,13 @@ public static class PlayersManager
         {
             if (players.Count == 0)
             {
-                connection.Send(server.m_Driver, writer);
+                requestingPlayer.Value.Send(server.m_Driver, writer);
                 yield break;
             }
 
             foreach (uint player in players)
             {
-                StandbyPlayers[player].Send(server.m_Driver, writer);
+                connectedPlayers[player].Send(server.m_Driver, writer);
             }
         }
     }

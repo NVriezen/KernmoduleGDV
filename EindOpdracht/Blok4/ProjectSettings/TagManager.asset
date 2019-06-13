@@ -14,10 +14,10 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
+  - Unwalkable
+  - Ground
+  - Walkable
+  - Hittable
   - 
   - 
   - 

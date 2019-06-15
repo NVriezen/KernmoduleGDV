@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="BombBase">
+    <Position X="3" Y="22.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAAABIAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bomb\BombBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NormalBomb">
+    <Position X="3.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bomb\NormalBomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client">
+    <Position X="4.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>UAQBAFBAADAAAAAAAEBAAAAgAACAIBAAAAAAIAAAAEQ=</HashCode>
+      <FileName>Assets\Scripts\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crate">
+    <Position X="9.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Crate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BombHandler">
+    <Position X="3" Y="20" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAACAAAAAAAAAAAAAAAAAEAAAAAAACAE=</HashCode>
+      <FileName>Assets\Scripts\GameUtilities\BombHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStarter">
+    <Position X="0.5" Y="5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAIAgQAAEIAgAIQAQEEBAgAgAABCAKAAEKFBAMAAAQI=</HashCode>
+      <FileName>Assets\Scripts\GameUtilities\GameStarter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="match" />
+      <Field Name="server" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TurnHandler">
+    <Position X="0.5" Y="20" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAICAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameUtilities\TurnHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientMatchManager">
+    <Position X="4.75" Y="5.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EAawwAQAMCAAABQEBEChAEAAkQRAACAAMEBDBAAgABM=</HashCode>
+      <FileName>Assets\Scripts\Managers\ClientMatchManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CrateManager">
+    <Position X="9.25" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAEAAAAAAAAAABAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\CrateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayersManager">
+    <Position X="4.75" Y="15.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAACAAAAAAAAAAwAAABAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\PlayersManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatchState">
+    <Position X="0.5" Y="15.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAgAABAABASiAAAEEAAQIAAAAAAAAAEAACBAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MatchState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bombHandler" />
+      <Field Name="turnHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MessageCenter">
+    <Position X="9" Y="0.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="MessageCenter.ReadEventFunction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\MessageCenter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="MessageCenter.WriteEventFunction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\MessageCenter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIBGAIAYMAAACAqACQAACEAEzIACgEAYAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\MessageCenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMatchInfo">
+    <Position X="4.75" Y="18" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAgAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerMatchInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server">
+    <Position X="0.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>EAQDABAAADAAAAAAAAAAACAAAADEIAEAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PlayerConnectStruct" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="RequestOpponentStruct" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="AssignOpponentStruct" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="StartGameStruct" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAIAAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="UIStateUpdateStruct" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAACAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="PlayerPositionUpdateStruct" BaseTypeListCollapsed="true">
+    <Position X="20" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="PlayerNamesStruct" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="TurnUpdateStruct" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="PlayerRespawnStruct" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="BombSpawnStruct" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="PlayerPlaceBombStruct" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="PlayerEndTurnStruct" BaseTypeListCollapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="WalkableFieldUpdateStruct" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAQAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="PlayerMoveStruct" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="BombExplodeStruct" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="GameOverStruct" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="CrateDestroyStruct" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageStructs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Interface Name="IMessageStruct">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\IMessageStruct.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ConnectionEvent">
+    <Position X="14" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAIFAhgCQAIAAEADDBAAxAYEAEAAAAQAAAAAAAkAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageCenter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

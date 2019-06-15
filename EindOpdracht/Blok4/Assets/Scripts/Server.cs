@@ -7,12 +7,15 @@ using Unity.Collections;
 using System.Collections;
 using System.Collections.Generic;
 
+using Unity.Networking.Transport.Utilities;
+
 using UdpCNetworkDriver = Unity.Networking.Transport.BasicNetworkDriver<Unity.Networking.Transport.IPv4UDPSocket>;
 
 public class Server : MonoBehaviour
 {
     private static Server instance;
     public UdpCNetworkDriver m_Driver;
+    //public NetworkPipeline reliablePipeline;
     private NativeList<NetworkConnection> m_Connections;
 
     [SerializeField] private int networkPort = 9000;
@@ -33,8 +36,13 @@ public class Server : MonoBehaviour
 
     void Start()
     {
-        m_Driver = new UdpCNetworkDriver(new NetworkConfigParameter{disconnectTimeoutMS = 60000});
-        if (m_Driver.Bind(new IPEndPoint(IPAddress.Any, networkPort)) != 0)
+        //m_Driver = new UdpNetworkDriver(new NetworkConfigParameter{disconnectTimeoutMS = 60000});
+        m_Driver = new UdpCNetworkDriver(/*new ReliableUtility.Parameters { WindowSize = 32 },*/ new NetworkConfigParameter{disconnectTimeoutMS = 60000});
+        //reliablePipeline = m_Driver.CreatePipeline(typeof(UnreliableSequencedPipelineStage), typeof(ReliableSequencedPipelineStage));
+        IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, networkPort);
+        //endPoint.Port = (ushort)networkPort;
+        //NetworkEndPoint endPoint = NetworkEndPoint.Parse("0.0.0.0", 9000);
+        if (m_Driver.Bind(endPoint) != 0)
         {
             Debug.Log("Failed to bind to port " + networkPort);
         }
@@ -66,6 +74,7 @@ public class Server : MonoBehaviour
         {
             if (!m_Connections[i].IsCreated)
             {
+                Debug.Log("Removing connection");
                 m_Connections.RemoveAtSwapBack(i);
                 --i;
             }
@@ -76,6 +85,7 @@ public class Server : MonoBehaviour
         while ((c = m_Driver.Accept()) != default(NetworkConnection))
         {
             m_Connections.Add(c);
+            StartCoroutine(SendPing());
             using (DataStreamWriter writer = MessageCenter.WriteEvent(ConnectionEvent.PING))
             {
                 c.Send(m_Driver, writer);
@@ -86,16 +96,19 @@ public class Server : MonoBehaviour
         DataStreamReader stream;
         for (int i = 0; i < m_Connections.Length; i++)
         {
+            Debug.Log("checking connections");
             if (!m_Connections[i].IsCreated)
             {
                 continue;
             }
 
+            Debug.Log("got a working connection");
             NetworkEvent.Type command;
             while ((command = m_Driver.PopEventForConnection(m_Connections[i], out stream)) != NetworkEvent.Type.Empty)
             {
                 if (command == NetworkEvent.Type.Data)
                 {
+                    Debug.Log("received data");
                     HandleData(stream, m_Connections[i]);
                 }
                 else if (command == NetworkEvent.Type.Disconnect)
@@ -170,5 +183,22 @@ public class Server : MonoBehaviour
 
         Debug.Log("Setting up game");
         FindObjectOfType<GameStarter>().SetupGame(this, matchID);
+    }
+
+    private IEnumerator SendPing()
+    {
+        while (true) {
+            yield return null;
+
+            using (DataStreamWriter writer = MessageCenter.WriteEvent(ConnectionEvent.PING))
+            {
+                for (int i = 0; i < m_Connections.Length; i++)
+                {
+                    m_Connections[i].Send(m_Driver, writer);
+                }
+            }
+
+            yield return new WaitForSeconds(5);
+        }
     }
 }

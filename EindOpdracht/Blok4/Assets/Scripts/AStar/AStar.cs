@@ -214,6 +214,11 @@ public class AStar : MonoBehaviour
         }
     }
 
+    public void UpdateTile(Vector3 tilePosition)
+    {
+        GetGridNodeAtWorldPos(tilePosition).unwalkable = false;
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.matrix = transform.localToWorldMatrix;

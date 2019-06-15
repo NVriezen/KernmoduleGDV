@@ -1,25 +1,22 @@
 ﻿using UnityEngine;
 using System.Net;
-
 using Unity.Networking.Transport;
-using Unity.Collections;
+using Unity.Networking.Transport.Utilities;
+using System.Collections;
 
 using UdpCNetworkDriver = Unity.Networking.Transport.BasicNetworkDriver<Unity.Networking.Transport.IPv4UDPSocket>;
-using System.Collections;
 
 public class Client : MonoBehaviour
 {
     public UdpCNetworkDriver m_Driver;
+    //public NetworkPipeline reliablePipeline;
     public NetworkConnection m_Connection;
     public bool connected;
 
     [SerializeField] private int networkPort = 9000;
     [SerializeField] private int dataCapacity = 4;
     [SerializeField] private bool localPlayer = true;
-
-    //[SerializeField] private int playerID;
-    //private string username;
-    //private string sessionID;
+    private IPEndPoint endPoint;
 
     public PlayerInfo playerInfo;
 
@@ -32,11 +29,13 @@ public class Client : MonoBehaviour
     {
         if (localPlayer)
         {
-            m_Driver = new UdpCNetworkDriver(new NetworkConfigParameter { disconnectTimeoutMS = 60000 });
+            m_Driver = new UdpCNetworkDriver(new NetworkConfigParameter { });///*new ReliableUtility.Parameters { WindowSize = 32 },*/ new NetworkConfigParameter { disconnectTimeoutMS = 60000 });
+            //reliablePipeline = m_Driver.CreatePipeline(typeof(UnreliableSequencedPipelineStage), typeof(ReliableSequencedPipelineStage));
             m_Connection = default(NetworkConnection);
 
-            IPEndPoint endpoint = new IPEndPoint(IPAddress.Loopback, networkPort);
-            m_Connection = m_Driver.Connect(endpoint);
+            endPoint = new IPEndPoint(IPAddress.Loopback, networkPort);
+            //NetworkEndPoint endPoint = NetworkEndPoint.Parse("192.168.2.190", 9000);
+            m_Connection = m_Driver.Connect(endPoint);
         }
     }
 
@@ -74,9 +73,16 @@ public class Client : MonoBehaviour
                 Debug.Log("Something went wrong during connecting");
             }
 
+            //if (endPoint.IsValid)
+            //{
+            //    m_Connection = m_Driver.Connect(endPoint);
+            //    Debug.Log("Tried to reconnect");
+            //}
+
             return;
         }
 
+        Debug.Log("Working connection");
         DataStreamReader stream;
         NetworkEvent.Type command;
 
@@ -90,7 +96,7 @@ public class Client : MonoBehaviour
                 {
                     playerID = (uint)playerInfo.userID
                 };
-                
+
                 using (DataStreamWriter writer = MessageCenter.WriteEvent(ConnectionEvent.PLAYER_CONNECT, dataStruct))
                 {
                     m_Connection.Send(m_Driver, writer);
@@ -135,7 +141,7 @@ public class Client : MonoBehaviour
 
         using (DataStreamWriter writer = MessageCenter.WriteEvent(ConnectionEvent.REQUEST_OPPONENT, dataStruct))
         {
-            m_Connection.Send(m_Driver, writer);
+            m_Connection.Send(m_Driver, /*reliablePipeline,*/ writer);
         }
         return true;
     }
@@ -150,7 +156,7 @@ public class Client : MonoBehaviour
 
         using (DataStreamWriter writer = MessageCenter.WriteEvent(ConnectionEvent.DONE_LOADING_LEVEL))
         {
-            m_Connection.Send(m_Driver, writer);
+            m_Connection.Send(m_Driver, /*reliablePipeline,*/ writer);
         }
     }
 

@@ -203,14 +203,20 @@ public static class MessageCenter
 
     private static void ReadPing(object caller, DataStreamReader stream, ref DataStreamReader.Context context, NetworkConnection connection)
     {
+        Client client = caller as Client;
         Debug.Log("Ping received");
-        WriteEvent(ConnectionEvent.PONG);
+        DataStreamWriter writer = WriteEvent(ConnectionEvent.PONG);
+        connection.Send(client.m_Driver , writer);
+        writer.Dispose();
     }
 
     private static void ReadPong(object caller, DataStreamReader stream, ref DataStreamReader.Context context, NetworkConnection connection)
     {
+        Server server = caller as Server;
         Debug.Log("Pong Received");
-        WriteEvent(ConnectionEvent.PING);
+        DataStreamWriter writer = WriteEvent(ConnectionEvent.PING);
+        connection.Send(server.m_Driver, writer);
+        writer.Dispose();
     }
 
     private static void ReadPlayerConnect(object caller, DataStreamReader stream, ref DataStreamReader.Context context, NetworkConnection connection)

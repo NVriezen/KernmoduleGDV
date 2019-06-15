@@ -359,6 +359,8 @@ public class GameStarter : MonoBehaviour
 
     public void CheckForPlayerHit(List<Vector3> hitPositions)
     {
+        int i = 0;
+        Debug.Log("amount of hitPosition - " + hitPositions.Count);
         foreach (Vector3 hitPosition in hitPositions) {
             foreach (uint player in playersList)
             {
@@ -370,6 +372,7 @@ public class GameStarter : MonoBehaviour
 
                 match.SkipPlayer(player);
                 //send message to display skipping of player
+                Debug.Log("lives update is calles " + ++i + " specific position is - " + hitPosition);
                 UpdateLives(player);
                 if (match.GetPlayerLives()[playersList.IndexOf(player)] == 0)
                 {
@@ -387,6 +390,7 @@ public class GameStarter : MonoBehaviour
         {
             if (CrateManager.instance.DestroyCrate(hitPosition))
             {
+                aStar.UpdateTile(hitPosition);
                 destroyableCrates.Add(hitPosition + new Vector3(0,0.5f,0));
             }
         }

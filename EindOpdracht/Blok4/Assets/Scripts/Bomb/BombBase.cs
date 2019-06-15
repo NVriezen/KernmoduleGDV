@@ -43,10 +43,10 @@ public abstract class BombBase : MonoBehaviour
         x = 0;
         for (y = (int)-explodeRange; y < explodeRange+1; y++)
         {
-            //if (y == 0)
-            //{
-            //    continue;
-            //}
+            if (y == 0)
+            {
+                continue;
+            }
             Vector3 checkingPosition = bombPosition + new Vector3(x, bombPosition.y, y);
             if (HasHitHittable(checkingPosition))
             {

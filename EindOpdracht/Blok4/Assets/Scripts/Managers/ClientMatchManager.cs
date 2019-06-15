@@ -214,6 +214,7 @@ public class ClientMatchManager : MonoBehaviour
     {
         for (int i = 0; i < data.amountOfData; i++)
         {
+            Debug.Log("Destroying crate " + data.cratesToDestroy[i]);
             CrateManager.instance.DestroyCrate(data.cratesToDestroy[i]);
         }
     }

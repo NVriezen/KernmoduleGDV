@@ -30,7 +30,7 @@ public class AttackAction : GOAPAction
     {
         GameObject target = agent.GetComponent<TargetComponent>().target;
 
-        if (target.GetComponent<IDamagable>().ReceiveDamage(agent.GetComponent<IAttacker>().attackPower))
+        if (target.GetComponent<IDamagable>().ReceiveDamage(this.gameObject, agent.GetComponent<IAttacker>().attackPower))
         {
             targetKilled = true;
         }

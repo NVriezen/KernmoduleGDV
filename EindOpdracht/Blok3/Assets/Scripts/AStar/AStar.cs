@@ -28,6 +28,8 @@ public class AStar : MonoBehaviour
     private List<GridNode> closedList = new List<GridNode>();
     private List<GridNode> openList = new List<GridNode>();
 
+    private List<GridNode> previousPath = new List<GridNode>();
+
     private void Awake()
     {
         grid = new GridNode[rows, columns];
@@ -51,6 +53,7 @@ public class AStar : MonoBehaviour
     }
 
     public List<Vector3> FindPath(Transform startPosition, Transform targetPosition)
+    //public IEnumerator FindPath(Transform startPosition, Transform targetPosition)
     {
         openList = new List<GridNode>();
         closedList = new List<GridNode>();
@@ -60,6 +63,7 @@ public class AStar : MonoBehaviour
 
         if (targetNode == null || startNode == null)
         {
+            //yield break;
             return null;
         }
 
@@ -67,11 +71,18 @@ public class AStar : MonoBehaviour
 
         openList.Add(currentNode);
         currentNode.GScore = 0;
+        currentNode.HScore = ManhattanDistance(startNode.gridPosition.x, startNode.gridPosition.y, targetNode.gridPosition);
+        currentNode.FScore = ComputeFScore(currentNode);
 
         while (openList.Count > 0)
         {
             openList.Sort((x,y) => x.FScore < y.FScore ? -1 : 1);
             currentNode = openList[0];
+
+            if (currentNode == targetNode)
+            {
+                TracePath(startNode, currentNode);
+            }
 
             openList.Remove(currentNode);
             closedList.Add(currentNode);
@@ -112,17 +123,19 @@ public class AStar : MonoBehaviour
                         continue;
                     }
 
+                    int newGScore = currentNode.GScore + ManhattanDistance(posX, posY, currentNode.gridPosition);
+
                     if (!openList.Contains(neighbour))
                     {
                         openList.Add(neighbour);
                     }
-                    else if (currentNode.GScore >= neighbour.GScore)
+                    else if (/*currentNode.GScore*/ newGScore >= neighbour.GScore)
                     {
                         continue;
                     }
 
-                    neighbour.HScore = ManhattanDistance(posX, posY, GetWorldPosFromGridPos(targetNode));
-                    neighbour.GScore = currentNode.GScore + 1;
+                    neighbour.HScore = ManhattanDistance(posX, posY, targetNode.gridPosition);
+                    neighbour.GScore = newGScore;//currentNode.GScore + 1;
                     int newFScore = ComputeFScore(neighbour);
 
                     neighbour.parent = currentNode;
@@ -132,7 +145,7 @@ public class AStar : MonoBehaviour
                     {
                         openList.Clear();
                         closedList.Clear();
-                        return TracePath(startNode, neighbour);
+                        /*yield */return TracePath(startNode, neighbour);//return TracePath(startNode, neighbour);
                     }
                 }
             }
@@ -148,7 +161,9 @@ public class AStar : MonoBehaviour
 
         while (currentNode != beginNode)
         {
-            resultingPath.Add(new Vector3(GetWorldPosFromGridPos(currentNode).x, this.transform.position.z, GetWorldPosFromGridPos(currentNode).y));
+            previousPath.Add(currentNode);
+
+            resultingPath.Add(new Vector3(GetWorldPosFromGridPos(currentNode).x, this.transform.position.y, GetWorldPosFromGridPos(currentNode).y));
             currentNode = currentNode.parent;
         }
         
@@ -172,8 +187,8 @@ public class AStar : MonoBehaviour
     public GridNode GetGridNodeAtWorldPos(Transform obj)
     {
 
-        int x = Mathf.FloorToInt(obj.position.x / cellSize + (rows * 0.5f));
-        int y = Mathf.FloorToInt(obj.position.z / cellSize + (columns * 0.5f));
+        int x = Mathf.FloorToInt((obj.position.x / cellSize + (rows * 0.5f)) - (this.transform.position.x / cellSize));
+        int y = Mathf.FloorToInt((obj.position.z / cellSize + (columns * 0.5f)) - (this.transform.position.y / cellSize));
 
         GridNode result = grid[x, y];
 
@@ -182,8 +197,8 @@ public class AStar : MonoBehaviour
 
     public Vector2 GetWorldPosFromGridPos(GridNode node)
     {
-        float x = (node.gridPosition.x - (rows * 0.5f)) * cellSize + cellSize * 0.5f;
-        float y = (node.gridPosition.y - (columns * 0.5f)) * cellSize + cellSize * 0.5f;
+        float x = (((node.gridPosition.x - rows * 0.5f)) * cellSize) + this.transform.position.x/*+ cellSize * 0.5f*/;
+        float y = (((node.gridPosition.y - columns * 0.5f)) * cellSize) + this.transform.position.y /*+ cellSize * 0.5f*/;
 
         //return grid[x, y];
         return new Vector2(x, y); 
@@ -221,6 +236,9 @@ public class AStar : MonoBehaviour
                 if (node.unwalkable)
                 {
                     Gizmos.color = new Color(1, 0, 0, 0.5f);
+                } else if (previousPath.Contains(node))
+                {
+                    Gizmos.color = new Color(0,0,1,0.5f);
                 }
                 Gizmos.DrawCube(new Vector3(GetWorldPosFromGridPos(node).x, transform.position.y, GetWorldPosFromGridPos(node).y), new Vector3(cellSize, cellSize, cellSize));
             }

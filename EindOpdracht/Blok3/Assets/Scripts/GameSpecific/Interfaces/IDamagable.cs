@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface IDamagable
 {
-    bool ReceiveDamage(float damagePower);
+    bool ReceiveDamage(Object caller, float damagePower);
     void OnDeath();
     float GetHealth();
     bool RecoverHealth();

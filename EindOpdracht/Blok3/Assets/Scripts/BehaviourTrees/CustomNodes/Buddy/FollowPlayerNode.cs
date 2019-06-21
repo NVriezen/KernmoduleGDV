@@ -30,16 +30,24 @@ public class FollowPlayerNode : BaseNode
         }
     }
 
-    private void SetPath()
+    IEnumerator SetPath()
     {
-        List<Vector3> path = AObject.FindPath(transform, target.transform);
-        if (path != null)
+        do
         {
-            if (path != previousPath)
+            //CoroutineUtility cd = new CoroutineUtility(this, AObject.FindPath(transform, target.transform));
+            //yield return cd.coroutine;
+            //List<Vector3> path = cd.result as List<Vector3>;
+            List<Vector3> path = AObject.FindPath(transform, target.transform);
+            if (path != null)
             {
-                currentPath = path;
+                if (path != previousPath)
+                {
+                    currentPath = path;
+                }
             }
-        }
+            yield return new WaitForSeconds(updateInterval);
+        } while (Vector3.Distance(transform.position, target.transform.position) > AObject.cellSize * 0.95f);
+        yield return null;
     }
 
     public override state Tick()
@@ -53,7 +61,7 @@ public class FollowPlayerNode : BaseNode
         {
             if (currentState != state.running /*|| Time.frameCount % updateInterval == 0*/)
             {
-                SetPath();
+                StartCoroutine(SetPath());
             }
         }
 

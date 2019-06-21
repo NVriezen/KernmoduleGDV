@@ -21,7 +21,7 @@ public class FollowTargetAStar : MonoBehaviour
 
     private void Start()
     {
-        List<Vector3> path = AObject.FindPath(transform, target.transform);
+        List<Vector3> path = null;//= AObject.FindPath(transform, target.transform);
         if (path != null)
         {
             if (path != previousPath)
@@ -69,7 +69,7 @@ public class FollowTargetAStar : MonoBehaviour
 
     void NewPath()
     {
-        List<Vector3> path = AObject.FindPath(transform, target.transform);
+        List<Vector3> path = null;//AObject.FindPath(transform, target.transform);
         if (path != null)
         {
             if (path != previousPath)

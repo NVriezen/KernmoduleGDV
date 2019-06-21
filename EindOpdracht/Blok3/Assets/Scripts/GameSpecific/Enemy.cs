@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Enemy : /*MonoBehaviour,*/ IAttacker, IDamagable
 {
-    public float moveSpeed = 5;
-    public float health = 100;
+    [SerializeField] private float moveSpeed = 5;
+    [SerializeField] private float health = 100;
     //public new float attackPower = 10;
-    public GameObject target;
+    [SerializeField] private GameObject target;
 
     public void Awake()
     {
@@ -81,7 +81,7 @@ public class Enemy : /*MonoBehaviour,*/ IAttacker, IDamagable
         }
     }
 
-    public bool ReceiveDamage(float attackPower)
+    public bool ReceiveDamage(Object caller, float attackPower)
     {
         health -= attackPower;
         if (health <= 0)
@@ -95,7 +95,8 @@ public class Enemy : /*MonoBehaviour,*/ IAttacker, IDamagable
     public void OnDeath()
     {
         Debug.Log("Enemy has died :)");
-        Destroy(gameObject);
+        UserNotifier.instance.OnEnemyKill(this.name);
+        //Destroy(gameObject);
         gameObject.SetActive(false);
     }
 

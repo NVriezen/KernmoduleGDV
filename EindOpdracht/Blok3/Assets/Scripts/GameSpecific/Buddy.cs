@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class Buddy : /*MonoBehaviour,*/ IAttacker, IGOAP, IDamagable
 {
-    public float moveSpeed = 5;
-    public float health = 100;
-    //public new float attackPower = 10;
-    public GameObject target;
-    public float healthRecoveryValue = 2;
+    [SerializeField] private float moveSpeed = 5;
+    [SerializeField] private float health = 100;
+    [SerializeField] private float attackingPower = 10;
+    [SerializeField] private GameObject target;
+    [SerializeField] private float healthRecoveryValue = 2;
 
     public void Awake()
     {
-        attackPower = 10;
-        
+        attackPower = attackingPower;
         if (GetComponent<TargetComponent>() == null)
         {
             target = null;
@@ -82,9 +81,10 @@ public class Buddy : /*MonoBehaviour,*/ IAttacker, IGOAP, IDamagable
         }
     }
 
-    public bool ReceiveDamage(float attackPower)
+    public bool ReceiveDamage(Object caller, float attackPower)
     {
         health -= attackPower;
+        UserNotifier.instance.UpdateBuddyHealth(health);
         if (health <= 0)
         {
             OnDeath();

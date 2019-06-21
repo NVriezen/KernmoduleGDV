@@ -1,10 +1,7 @@
 # KernmoduleGDV
 
-## Blok 3
-!LETOP: Er zijn wat dingen te laat ingeleverd. Wil je de originele source zien?
-Download dan de source van release 1.0!
-
-EDIT: De build van de game kan gedownload worden via de releases tab.
+## Blok 3 Herkansing
+De build van de game kan gedownload worden via de releases tab.
 
 
 Het AI project staat onder het mapje EindOpdracht/Blok3.

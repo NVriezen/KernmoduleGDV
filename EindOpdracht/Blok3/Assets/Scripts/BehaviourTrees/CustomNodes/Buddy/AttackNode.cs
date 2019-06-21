@@ -59,7 +59,7 @@ public class AttackNode : BaseNode
             }
         }
         
-        bool result = target.ReceiveDamage(attackStats.attackPower);
+        bool result = target.ReceiveDamage(this.gameObject, attackStats.attackPower);
         if (result)
         {
             availableTargets.Remove(target);

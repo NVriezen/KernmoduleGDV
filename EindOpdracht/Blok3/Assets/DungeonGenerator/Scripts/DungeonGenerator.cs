@@ -24,12 +24,12 @@ public class DungeonGenerator : MonoBehaviour {
         //}
     }
 
-    private void Update() {
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            ClearDungeon();
-            GenerateDungeon();
-        }
-    }
+    //private void Update() {
+    //    //if (Input.GetKeyDown(KeyCode.Space)) {
+    //    //    ClearDungeon();
+    //    //    GenerateDungeon();
+    //    //}
+    //}
 
     public void GenerateDungeon() {
         ClearDungeon();

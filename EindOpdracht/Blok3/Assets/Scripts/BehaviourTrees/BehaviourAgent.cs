@@ -2,21 +2,27 @@
 
 public class BehaviourAgent : MonoBehaviour
 {
-    [SerializeField] private float updateInterval = 1;
-    [SerializeField] private CompositeNode startNode;
+    [SerializeField] private float _updateInterval = 1;
+    [SerializeField] private CompositeNode _startNode;
 
     private BaseNode.state st = BaseNode.state.succes;
-    
+
+    //BehaviourAgent(CompositeNode startnode, float updateInterval = 1)
+    //{
+    //    _startNode = startnode;
+    //    _updateInterval = updateInterval;
+    //}
+
     private void Update()
     {
-        if (Time.frameCount % updateInterval == 0) {
+        if (Time.frameCount % _updateInterval == 0) {
             if (st == BaseNode.state.running)
             {
-                st = startNode.childStatus = startNode.runningNode.Tick();
+                st = _startNode.childStatus = _startNode.runningNode.Tick();
             }
             else
             {
-                st = startNode.Tick();
+                st = _startNode.Tick();
             }
         }
 
